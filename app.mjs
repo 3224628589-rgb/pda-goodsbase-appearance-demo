@@ -48,7 +48,7 @@ function renderEdit() {
   const content = `<div class="section-heading">商品基础信息</div><section class="main-panel">
     <div class="group-label">商品图片</div>${photoGrid(ui.draftPhotos, true)}
     <div class="appearance-list">${links.map(previewCard).join('')}
-      <button class="add-appearance" data-action="open-picker">增加新的外观特征</button>
+      <button class="add-appearance" data-action="open-picker">增加新的外观</button>
     </div>
     <div class="product-fields">
       ${plainField('商品名称*', 'name', ui.draftProduct.name)}
